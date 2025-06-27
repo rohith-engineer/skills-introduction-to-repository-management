@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"  # Root directory of the repo
+    schedule:
+      interval: "weekly"
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"  # Location of .github/workflows
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
